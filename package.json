@@ -1,0 +1,19 @@
+{
+  "name": "voidproxy",
+  "version": "1.0.0",
+  "description": "Ngrok-powered web proxy",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "ngrok": "^4.3.3",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: voidproxy
+    env: node
+    buildCommand: npm install
+    startCommand: node start.js
+    envVars:
+      - key: NODE_ENV
+        value: production
